@@ -19,7 +19,9 @@ SOA Patterns used
 There are 3 Microservices: one which manages articles, one which manages labels, and a third one which performs the business logic and offers a web app (including a GUI frontend, and also a minimalistic REST API for external clients) to interact with the entities.
 
 A minimalistic rest API to interact with the entities is also offered. Currently, the API offers a list of all the labels and all the articles in the system at the following HTTP GET endpoints:
+
 localhost:8080/articles/label/1?apiKey=abcd1234
+
 localhost:8080/articles/label/2?apiKey=test
 
 The API is secured in the sense that an API key is necessary before it can be used.
@@ -52,16 +54,20 @@ Layers
 ------
 
 Frontend
+
 JSP files with Spring and JSTL + websockets (for notifications)
 A minimalist frontend which supports clinet-server notifications and viceversa.
 
 API Layer
+
 Spring MVC acts as the API layer for the architecture. It listens for client requests and forwards them to the appropriate back-end microserivces.
 
 Microserice Layer
+
 gRPC is used to communicate between the API gateway and the other microserices. Protocol buffers are used as a data interchange format between the client (REST API) and the servers (gRPC microservices). The gRPC microserivces themselves are created in plain Java, with no other framework aside from gRPC.
 
 Persistence Layer
+
 The application is currently using an In-Memory repository. However, its modular architecture easily allows for a proper repository, such as a database-backed one, to be implemented. This is especially true in the Docker context, since a database engine can easily be packaged in a Docker container.
 
 Deployment
@@ -84,14 +90,16 @@ NOTE: the deployment folder is already provided, for your convenience.
 
 Default credentials
 -------------------
+
 Username: admin
+
 Password: amdin
 
 The application has basic security: 
 Using the aforementioned credentials, users may delete individual articles and upload new articles.
 However, if logged in as a guest user, articles may only be viewed.
 
-NOTICE
+Notice
 ------
 
 The project is an attempt at a Java+Spring replica of the JS+NestJS one hosted here: https://github.com/benjsicam/nestjs-rest-microservices
