@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc6b6660-2b8e-43ca-82e2-c9db165b4624" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nmxhufv2aeIBRrkz9LKVkgMlEa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ubb.pcis2083.soa.common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LabelServer">
+    <configuration name="LabelServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ubb.pcis2083.soa.labels.server.LabelServer" />
+      <module name="grpc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ubb.pcis2083.soa.labels.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ubb.pcis2083.soa.labels.TestClient" />
+      <module name="grpc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ubb.pcis2083.soa.labels.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LabelServer" />
+        <item itemvalue="Application.TestClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc6b6660-2b8e-43ca-82e2-c9db165b4624" name="Default Changelist" comment="" />
+      <created>1612009194625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612009194625</updated>
+      <workItem from="1612009197029" duration="13000" />
+      <workItem from="1612009212704" duration="3000" />
+      <workItem from="1612009227122" duration="1151000" />
+      <workItem from="1612034699376" duration="2000" />
+      <workItem from="1612038151535" duration="643000" />
+      <workItem from="1612039045214" duration="983000" />
+      <workItem from="1612085956881" duration="629000" />
+      <workItem from="1612090262670" duration="9781000" />
+      <workItem from="1612100918504" duration="247000" />
+      <workItem from="1612101821553" duration="893000" />
+      <workItem from="1612105803390" duration="5000" />
+      <workItem from="1612105818868" duration="4000" />
+      <workItem from="1612107731045" duration="2510000" />
+      <workItem from="1612110647561" duration="6000" />
+      <workItem from="1612110882755" duration="1825000" />
+      <workItem from="1612123945260" duration="3508000" />
+      <workItem from="1612167688466" duration="828000" />
+      <workItem from="1612169233560" duration="3208000" />
+      <workItem from="1612174607889" duration="25000" />
+      <workItem from="1612174637773" duration="8000" />
+      <workItem from="1612181463365" duration="608000" />
+      <workItem from="1612182080827" duration="31000" />
+      <workItem from="1612182117073" duration="38000" />
+      <workItem from="1612182189070" duration="9000" />
+      <workItem from="1612271430059" duration="98000" />
+      <workItem from="1612271542716" duration="76000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

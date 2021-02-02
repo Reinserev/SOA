@@ -1,0 +1,28 @@
+version: '3.3'
+services:
+    labels:
+        image: "openjdk:11.0-jre-buster"
+        volumes:
+        - ./labels.jar:/labels.jar
+        expose:
+        - "55836"
+        command: java -jar /labels.jar
+    articles:
+        image: "openjdk:11.0-jre-buster"
+        volumes:
+        - ./articles.jar:/articles.jar
+        expose:
+        - "56499"
+        command: java -jar /articles.jar
+    spring:
+        depends_on:
+            - "articles"
+            - "labels"
+        image: tomcat:8.5.61-jdk11-corretto
+        volumes:
+        - ./spring.war:/usr/local/tomcat/webapps/spring.war
+        ports:
+        - '8080:8080'
+        links:
+        - labels
+        - articles

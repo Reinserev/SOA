@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework:spring-test:5.1.1.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.1.1.RELEASE/68f366d30689f517fbb8acbde3fbfc3eca5e45f6/spring-test-5.1.1.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.1.1.RELEASE/6262bb43964c5837a9b7d67f07257ab3ffecc879/spring-test-5.1.1.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
